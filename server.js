@@ -69,7 +69,7 @@ build.getSource((err, source) => {
     const locale = getLocale(filePath)
 
     if (!selectedLocales || selectedLocales.includes(locale)) {
-      console.log(`The language ${locale} is changed, '${filePath}' is modified.`)
+      console.log(`The language ${locale} is changed, '${filePath}' is  modified.`)
       dynamicallyBuildOnLanguages(source, locale)
     }
   })
