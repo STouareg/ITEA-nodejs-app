@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  itea-app:
+  - apiVersion: v1
+    created: "2021-01-27T22:14:35.653414013Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: 5b20c92296c4eafc56d47d1b2618695f6bd8d87470bc754bda95090097dec50a
+    keywords:
+    - docker-compose
+    name: itea-app
+    urls:
+    - charts/itea-app-0.0.2.tgz
+    version: 0.0.2
+generated: "2021-01-27T22:14:36Z"
+serverInfo: {}
