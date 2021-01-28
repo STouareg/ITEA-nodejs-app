@@ -1,8 +1,29 @@
 apiVersion: v1
 entries:
+  app-test:
+  - apiVersion: v1
+    created: "2021-01-28T10:25:31.978096247Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: 024d1ce7b013f84dfc704ea316ab92ad263d5f64893f9ea43b42d95ccb5f42d7
+    keywords:
+    - docker-compose
+    name: app-test
+    urls:
+    - charts/app-test-0.0.1.tgz
+    version: 0.0.1
   itea-app:
   - apiVersion: v1
-    created: "2021-01-27T22:14:35.653414013Z"
+    created: "2021-01-28T10:01:26.626115897Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: 35e587fa8e4444e6292e0c55f7a12c8e5ebe7e8c41c74b9cce1a44e9cf468d3b
+    keywords:
+    - docker-compose
+    name: itea-app
+    urls:
+    - charts/itea-app-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v1
+    created: "2021-01-28T10:59:52.124393019Z"
     description: A generated Helm Chart for docker-compose from Skippbox Kompose
     digest: 5b20c92296c4eafc56d47d1b2618695f6bd8d87470bc754bda95090097dec50a
     keywords:
@@ -11,5 +32,36 @@ entries:
     urls:
     - charts/itea-app-0.0.2.tgz
     version: 0.0.2
-generated: "2021-01-27T22:14:36Z"
+  new-app:
+  - apiVersion: v1
+    created: "2021-01-28T11:27:13.11505334Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: c64c7c9975151ffb1d14a216339c8ae53d19607bf7e0bcb3afda11f47ec03d34
+    keywords:
+    - docker-compose
+    name: new-app
+    urls:
+    - charts/new-app-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v1
+    created: "2021-01-28T11:20:55.209536401Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: 490e8c4d3cda96b25b37fef9fd33669a062c57623770f067de9118d4b894cfef
+    keywords:
+    - docker-compose
+    name: new-app
+    urls:
+    - charts/new-app-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    created: "2021-01-28T11:16:24.257758148Z"
+    description: A generated Helm Chart for docker-compose from Skippbox Kompose
+    digest: e37827f5713c082e834b87c00afa28c46c9d8e0173a5935d07bfc11bf8c6bb3f
+    keywords:
+    - docker-compose
+    name: new-app
+    urls:
+    - charts/new-app-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-01-28T11:27:13Z"
 serverInfo: {}

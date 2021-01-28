@@ -2,7 +2,7 @@ version: '3'
 
 services:
   apps:
-     image: sturyk/itea-nodejs-app:1.1.3
+     image: sturyk/itea-nodejs-app:1.1.4
      container_name: nodejs-app-docker
      restart: always
      ports:
